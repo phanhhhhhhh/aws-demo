@@ -43,28 +43,6 @@ public class DemoController {
             </style></head>
             <body><div class="container">
             <div class="card">
-                <h1>🚀 Spring Boot API Demo &nbsp;<span class="badge">● LIVE</span></h1>
-                <p style="color:#666;font-size:14px;margin-bottom:15px">Deployed on Railway with Docker + MySQL</p>
-                <div class="tech-stack">
-                    <span class="tech">☕ Java 17</span><span class="tech">🌱 Spring Boot 3.2</span>
-                    <span class="tech">🔐 JWT Auth</span><span class="tech">🗄️ MySQL</span>
-                    <span class="tech">🐳 Docker</span><span class="tech">☁️ Railway</span>
-                </div>
-                <div class="stats">
-                    <div class="stat"><div class="stat-num">✅</div><div class="stat-label">Server Online</div></div>
-                    <div class="stat"><div class="stat-num">%d</div><div class="stat-label">Registered Users</div></div>
-                    <div class="stat"><div class="stat-num">🔐</div><div class="stat-label">JWT Secured</div></div>
-                    <div class="stat"><div class="stat-num">🗄️</div><div class="stat-label">MySQL Connected</div></div>
-                </div>
-            </div>
-            <div class="card">
-                <h2>📮 API Endpoints</h2>
-                <div class="endpoint"><span class="method post">POST</span>/api/auth/register — Đăng ký tài khoản</div>
-                <div class="endpoint"><span class="method post">POST</span>/api/auth/login — Đăng nhập, nhận JWT token</div>
-                <div class="endpoint"><span class="method get">GET</span>/api/users/me — Xem profile (yêu cầu JWT)</div>
-                <div class="endpoint"><span class="method get">GET</span>/actuator/health — Health check</div>
-            </div>
-            <div class="card">
                 <h2>🧪 Live Demo</h2>
                 <div class="form-row">
                     <input id="username" placeholder="Username" value="demo_user"/>
